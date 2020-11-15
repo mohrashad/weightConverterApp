@@ -2,7 +2,7 @@
 const outputContainer = document.getElementById('output');
 
 // display results in documnet function
-const elementsContent = (id, conetent) => document.getElementById(id).textContent = conetent;
+const elementsContent = (id, content) => document.getElementById(id).textContent = content;
 
 // hide the outputs container
 outputContainer.style.visibility = 'hidden';
